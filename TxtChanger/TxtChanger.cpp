@@ -1,25 +1,30 @@
-﻿#include <iostream>
-#include <string>
-
-void OpenFile(std::string linkToFile);
-
-void ChangeTxtInPattern(std::string txt, std::string pattern, std::string place);
-
-void ChangeTxtInPattern(std::string txt, std::string pattern);
+﻿#include "Functions.h"
 
 
 int main()
 {
-    std::string link, pattern, place;
+    std::fstream* pFile;
 
-    std::cout << "Input link to file\n";
-    std::getline(std::cin, link);
+    std::string pattern, string, place;
 
-    std::cout << "Input Pattern\n";
+    pFile = pOpenedFile();
+ 
+    *pFile << "Hi!!" << std::endl; //Test
+    
+    
+    /*
+    std::cout << "Input pattern\n";
     std::getline(std::cin, pattern);
 
-    std::cout << "Input Place or press enter if u want change all string\n";
+    std::cout << "Input string\n";
+    std::getline(std::cin, string);
+
+    std::cout << "Input place or press enter if u want change all string\n";
     std::getline(std::cin, place);
+
+
+    */
+
 
 }
 
