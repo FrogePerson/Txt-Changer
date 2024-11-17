@@ -5,26 +5,23 @@ int main()
 {
     std::fstream* pFile;
 
-    std::string pattern, string, place;
+    std::string pattern, txt, place;
 
     pFile = pOpenedFile();
- 
-    *pFile << "Hi!!" << std::endl; //Test
-    
-    
-    /*
+
+    std::cout << "Input txt\n";
+    std::getline(std::cin, txt);
+
     std::cout << "Input pattern\n";
     std::getline(std::cin, pattern);
-
-    std::cout << "Input string\n";
-    std::getline(std::cin, string);
+ 
+    ChangeTxtInPattern(*pFile, txt, pattern);
 
     std::cout << "Input place or press enter if u want change all string\n";
     std::getline(std::cin, place);
 
 
-    */
-
+    pFile->close();
 
 }
 

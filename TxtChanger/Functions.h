@@ -2,10 +2,11 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <regex>
 
 
 std::fstream* pOpenedFile();
 
-void ChangeTxtInPattern(std::string& txt, std::string& pattern, std::string& place);
+void ChangeTxtInPattern(std::fstream& File, std::string& txt, std::string& pattern, std::string& place);
 
-void ChangeTxtInPattern(std::string& txt, std::string& pattern);
+void ChangeTxtInPattern(std::fstream& File, std::string& txt, const std::string& pattern);

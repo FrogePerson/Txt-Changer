@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChangeTxtInPattern0.cpp" />
     <ClCompile Include="OpenFile.cpp" />
     <ClCompile Include="TxtChanger.cpp" />
   </ItemGroup>
