@@ -5,7 +5,7 @@ inline void ChangeString(std::ofstream& newFile, std::string& txt, std::string& 
 	newFile << "KALLLLLL" << "\n";
 }
 
-void ChangeTxtInPattern(std::fstream& File, std::string& txt, std::string& pattern, std::string& place)
+void ChangeTxtInPattern(std::fstream& const File, std::string& txt, std::string& pattern, std::string& place)
 {
 	std::string string;
 	std::ofstream newFile;

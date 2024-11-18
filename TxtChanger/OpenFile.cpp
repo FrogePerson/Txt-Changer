@@ -33,7 +33,7 @@ std::fstream* pOpenedFile()
 	}
 	std::cout << "file opened\n";
 
-	std::fstream* pFile = new std::fstream;
+	std::fstream* const pFile = new std::fstream;
 
 	pFile->open(link);
 
