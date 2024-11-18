@@ -14,15 +14,15 @@ int main()
 
     std::cout << "Input pattern\n";
     std::getline(std::cin, pattern);
- 
-    ChangeTxtInPattern(*pFile, txt, pattern);
 
-    std::cout << "Input place or press enter if u want change all string\n";
+    std::cout << "Input after what input ur txt or press enter if u want change all string\n";
     std::getline(std::cin, place);
 
+    place.empty() ? ChangeTxtInPattern(*pFile, txt, pattern) : ChangeTxtInPattern(*pFile, txt, pattern, place);
+ 
+    
 
     pFile->close();
-
 }
 
 
