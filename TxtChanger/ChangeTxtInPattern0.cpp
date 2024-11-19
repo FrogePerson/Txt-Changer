@@ -1,11 +1,6 @@
 #include "Functions.h"
 
-inline void ChangeString(std::ofstream& newFile, std::string& txt)
-{
-	newFile << txt << "\n";
-}
-
-void ChangeTxtInPattern(std::fstream& File, std::string& txt, const std::string& pattern)
+void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, const std::string& pattern)
 {
 	std::string string;
 	std::ofstream newFile;

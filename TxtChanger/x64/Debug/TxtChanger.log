@@ -1,4 +1,40 @@
-﻿  OpenFile.cpp
+﻿  ChangeStringCode.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeStringCode.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeStringCode.cpp")
+  
+  ChangeTxtInPatten1.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeTxtInPatten1.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeTxtInPatten1.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\ChangeTxtInPatten1.cpp(3,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\ChangeTxtInPatten1.cpp(8,6): warning C4101: sumOfChangedStrings: неиспользованная локальная переменная
+  ChangeTxtInPattern0.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeTxtInPattern0.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "ChangeTxtInPattern0.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\ChangeTxtInPattern0.cpp(3,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  OpenFile.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "OpenFile.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "OpenFile.cpp")
+  
   TxtChanger.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "TxtChanger.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "TxtChanger.cpp")
+  
   Создание кода...
   TxtChanger.vcxproj -> C:\Users\GF\source\repos\TxtChanger\x64\Debug\TxtChanger.exe

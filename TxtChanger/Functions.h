@@ -5,8 +5,13 @@
 #include <regex>
 
 
-std::fstream* pOpenedFile();
+std::ifstream* pOpenedFile();
 
-void ChangeTxtInPattern(std::fstream& const File, std::string& txt, std::string& pattern, std::string& place);
+inline void ChangeString(std::ofstream& newFile, const std::string& txt)
+{
+	newFile << txt << "\n";
+}
+void ChangeString(std::ofstream& newFile, const std::string& txt, const std::string& string, const std::string& place);
 
-void ChangeTxtInPattern(std::fstream& const File, std::string& txt, const std::string& pattern);
+void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, std::string& pattern, std::string& place);
+void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, const std::string& pattern);

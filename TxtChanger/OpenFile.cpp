@@ -19,7 +19,7 @@ bool IsFileGood(std::string& link)
 }
 
 
-std::fstream* pOpenedFile()
+std::ifstream* pOpenedFile()
 {
 	std::string link;
 
@@ -33,7 +33,7 @@ std::fstream* pOpenedFile()
 	}
 	std::cout << "file opened\n";
 
-	std::fstream* const pFile = new std::fstream;
+	std::ifstream* const pFile = new std::ifstream;
 
 	pFile->open(link);
 

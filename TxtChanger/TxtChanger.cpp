@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::fstream* pFile;
+    std::ifstream* pFile;
 
     std::string pattern, txt, place;
 
