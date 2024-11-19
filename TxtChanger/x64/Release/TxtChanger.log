@@ -1,0 +1,13 @@
+﻿  TxtChanger.cpp
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(16,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "TxtChanger.cpp")
+  
+C:\Users\GF\source\repos\TxtChanger\TxtChanger\Functions.h(17,38): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "TxtChanger.cpp")
+  
+  Создание кода
+  1 of 853 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  TxtChanger.vcxproj -> C:\Users\GF\source\repos\TxtChanger\x64\Release\TxtChanger.exe

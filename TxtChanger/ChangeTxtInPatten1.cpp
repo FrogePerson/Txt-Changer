@@ -11,7 +11,7 @@ void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, std::string
 	std::cout << "Input number of this symbol\n";
 	std::cin >> number;
 
-	newFile.open("../NewTxtFile.txt");
+	newFile.open("NewTxtFile.txt");
 
 	std::cout << "Changing the file\n";
 
