@@ -20,6 +20,7 @@ int main()
 
     place.empty() ? ChangeTxtInPattern(*pFile, txt, pattern) : ChangeTxtInPattern(*pFile, txt, pattern, place);
  
+    std::cout << "Ur changed file named NewTxtFile.txt\n";
     
 
     pFile->close();

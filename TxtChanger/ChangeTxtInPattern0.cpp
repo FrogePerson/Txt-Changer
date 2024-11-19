@@ -6,7 +6,7 @@ void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, const std::
 	std::ofstream newFile;
 	const std::regex regPattern(pattern);
 
-	newFile.open("NewTxtFile.txt");
+	newFile.open("../NewTxtFile.txt");
 	
 	std::cout << "Changing the file\n";
 	

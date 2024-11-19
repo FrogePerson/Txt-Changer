@@ -1,7 +1,9 @@
 #include "Functions.h"
 
-void ChangeString(std::ofstream& newFile, const std::string& txt, const std::string& string, const std::string& place)
+void ChangeString(std::ofstream& newFile, const std::string& txt, const std::string& string, const std::string& place, const int number)
 {
+	int numberOfneedSymbol = 0;
+
 	for (int numberOfSymbol = 0; numberOfSymbol < string.length(); numberOfSymbol++)
 	{
 		newFile << string.at(numberOfSymbol);
@@ -9,7 +11,12 @@ void ChangeString(std::ofstream& newFile, const std::string& txt, const std::str
 		if (string.at(numberOfSymbol) == place.at(0))
 		{
 
-			newFile << txt;
+			if (numberOfneedSymbol == number)
+			{
+				newFile << txt;
+			}
+
+			numberOfneedSymbol++;
 
 		}
 

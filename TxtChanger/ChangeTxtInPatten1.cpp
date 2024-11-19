@@ -5,9 +5,13 @@ void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, std::string
 	std::string string;
 	std::ofstream newFile;
 	const std::regex regPattern(pattern);
-	int sumOfChangedStrings;
+	int number;
+	
 
-	newFile.open("NewTxtFile.txt");
+	std::cout << "Input number of this symbol\n";
+	std::cin >> number;
+
+	newFile.open("../NewTxtFile.txt");
 
 	std::cout << "Changing the file\n";
 
@@ -15,7 +19,7 @@ void ChangeTxtInPattern(std::ifstream& const File, std::string& txt, std::string
 
 	while (std::getline(File, string))
 	{
-		((std::regex_search(string, regPattern))) ? ChangeString(newFile, txt, string, place) : ChangeString(newFile, string);
+		((std::regex_search(string, regPattern))) ? ChangeString(newFile, txt, string, place, number) : ChangeString(newFile, string);
 	}
 
 	newFile.close();
